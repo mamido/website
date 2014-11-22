@@ -1,0 +1,174 @@
+/*css stylesheet*/
+
+body{
+	background-color:#D2D2D2;
+
+}
+
+#wrapper{
+   background-color:red;
+
+	width:960px;
+	height:829px;
+	margin:0 auto;
+	
+	}
+
+#home,#classes,#about,#contact{
+background-color:#AAFFAA;
+
+s
+
+}
+
+
+div #header .container {
+
+	background-color:#55FF55;
+	padding:10px 0 0 50px;
+	margin-bottom:20px;
+	height:150px;
+	 border: 1px solid black;
+	
+
+}
+#nav.container ul{
+		background-color:#AAFFAA;
+        border: 1px solid black;
+
+}
+
+#nav li{
+
+    background-image:url("m4.jpg");
+	list-style:none; 
+	text-decoration:none;
+	margin-left:90px; 
+	padding:10px 20px 10px 20px;
+	float:left;
+	border:2px solid black;
+	}
+
+/* unvisited link */
+a:link {
+    color: #0000FF;
+}
+
+/* visited link */
+a:visited {
+    color: #0000FF;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF0000;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+	
+}
+
+#main_content{
+	border:1px solid black;
+ background-color:yellow;
+	padding-top:10px;
+	height:800px; /*pinky/purple background height */
+	clear:left;
+
+	
+}
+
+#main{ 
+background-color:blue;
+margin-top:80px;
+width:700px;
+border:1px solid black;
+height:450px;
+margin-left:130px; 
+ }
+ #content{
+ position:absolute;
+ background-color:red;
+margin-top:30px;
+width:600px;
+border:1px solid yellow;
+height:160px;
+margin-left:180px;
+ 
+ }
+
+#main_content  h3{
+		position:relative;
+		left:350px;
+		width:50%;
+		  
+		}  
+#main_content  h1{
+		position:relative;
+		left:400px;
+		width:50%;
+		
+		  
+		}  		
+
+#main_content .container ul li{
+	/*display:inline;  ------------ this had no effect whe page refreshed*/
+	list-style:none;
+	float:left;
+}
+
+
+#main_content .container a{
+		background-color:#AAFFAA;
+		
+		margin-left:60px;
+	
+		
+	}
+	
+	#image1, #image2, #image3, #image4, #image5, #image6  , #image7 , #image8 , #image9   {
+			
+			margin:10px;
+	
+	}
+	#footer{
+			background-color:blue;
+			width:959px;
+			margin:0px;
+			
+			}
+	
+	.footer-social { 
+			float: right; 
+			margin-top:5px;
+			border:1px solid black;
+				}
+	
+	.footer-social li { 
+			display: inline;
+			
+				}
+	
+	#footer ul{
+			width:50%;
+			position:relative;
+			left:600px;
+			
+			}
+	
+	#copyright{
+	  
+		position:absolute;
+		top:1060px;
+		left:450px;
+		width:400px;
+		color:red;
+		{
+
+
+		}
+	a{
+	text-decoration:none;
+	}
